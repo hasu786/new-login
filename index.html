@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+        body{
+            background-color: rgb(184, 201, 255);
+        }
+        .card{
+            background-color: white;
+            width: 70%;
+            height: 435px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            
+        }
+       .heading{
+        margin-top: 30px;
+        margin-left: 30px;
+       }
+        
+        .card1{
+            width: 60%;
+            height: 400px;
+            padding: 20px;
+        }
+        .card2{
+            background-color: rgb(0, 0, 255);
+            color: white;
+            width: 60%;
+            height: 450px;
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input{
+           
+            width: 85%;
+            padding: 5px;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            margin-left: 30px;
+            display: flex;
+          
+        }
+       button{
+        padding: 5px;
+        margin-top: 20px;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 30px;
+        
+       }
+       a{
+        color: white;
+        font-size: 10px;
+        
+       }
+       p{
+        margin-left: 48px;
+        font-size: 15px;
+        margin-top: 10px;
+       }
+      select{
+        width: 88%;
+        margin-left: 30px;
+        padding: 5px;
+        margin-top: 10px;  
+      }
+       .name{
+        display: flex;
+       }
+       .company{
+        display: flex;
+        select{
+            margin-right: 15px;
+        }
+       }
+       .zip{
+        display: flex;
+        select{
+            margin-right: 15px;
+            width: 80%;
+        }
+       }
+       .code{
+        display: flex;
+        margin-right: 13px;
+       }
+    </style>
+</head>
+<body>
+    <div class="card">
+       <div class="card1">
+          <div class="heading">General Information</div>
+         
+          <select name="" id="">
+            <option value="">Title</option>
+             <option value="">For Incury</option>
+              <option value="">For Contect</option>
+               <option value="">For JOB</option>
+                <option value="">For Meating</option>
+                 <option value=""> For Reception</option>
+
+          </select>
+          <div class="name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+          </div>
+          
+          <select name="" id="">
+            <option value="">Position</option>
+             <option value="">CEO</option>
+              <option value="">Reception</option>
+               <option value="">Peon</option>
+
+          </select>
+          
+            <input type="text" placeholder="Company">
+          
+          
+           <div class="company">
+            <input type="text" placeholder="Business Arena">
+            <select name="" id="">
+            <option value="">Employees</option>
+            <option value="">200</option>
+            <option value="">600</option>
+            <option value="">800</option>
+            <option value="">1200</option>
+          </select>
+           </div>
+       </div>
+       <div class="card2">
+        <div class="heading">Contact Details</div>
+        <input type="text" placeholder="Street + Nr">
+        <input type="text" placeholder="Additional Information">
+        <div class="zip">
+            <input type="text" placeholder="Zip Code">
+             <select name="" id="">
+            <option value="">Place</option>
+            <option value="">Mumbai</option>
+            <option value="">Delhi</option>
+            <option value="">Gujrat</option>
+            <option value="">Assam</option>
+        </select>
+        </div>
+       
+        <select name="" id="">
+            <option value="">Country</option>
+            <option value="">India</option>
+            <option value="">China</option>
+            <option value="">Brazil</option>
+            <option value="">Russia</option>
+        </select>
+        <div class="code">
+            <input type="text" placeholder="Code +">
+            <input type="text" placeholder="Phone Number">
+        </div>
+        <input type="text" placeholder="Your Email"><br>
+       <p> I do accept the <a href="">Terms and conditings</a>of your site <br></p>
+        <button>Register Badge</button> 
+        </div>
+        
+    </div>
+</body>
+</html>
